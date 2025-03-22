@@ -1,0 +1,223 @@
+div{
+    /* border: 2px solid black; */
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* header  */
+.header {
+    margin: 0px;
+    background: rgb(0, 64, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    align-items: center;
+    /* border: 1px solid red;  */
+    
+}
+.card{
+    /* border: 1px solid yellow; */
+
+    padding-left: 80px;
+
+}
+
+.logoheader{
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 60%;
+    /* height: 30%; */
+    
+}
+
+.barrabuscador{
+    /* border: 1px solid pink; */
+    /* width: 100%;
+    height: 100%; */
+    font-size: 30px;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: green ;
+    border-radius: 10px;
+}
+
+.botonesheader{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    color: whitesmoke;
+    /* border: 1px solid green;  */
+}
+/* filtros */
+.filtro{
+    margin: 0px;
+    background-color: green;
+    /* color: whitesmoke; */
+    display:flex;
+    justify-content: space-around;
+    /* width: 100%; */
+    align-items: center;
+    /* border: 1px solid rgb(41, 123, 3);   */
+}
+
+.navfiltro{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 1px solid blue;  */
+}
+.botonesfiltro{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid green;  */
+}
+
+/* lienzo */
+
+.lienzo{
+    margin: 0px;
+    padding: 5px;
+    background-color: rgb(0, 64, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 80vh;
+    /* display: flex;
+    flex-wrap: wrap; */
+    gap: 10px;
+    /* border: 1px solid yellow;   */
+    overflow-y: scroll;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+
+/* footer  */
+.footer{
+    margin: 0px;
+    background-color: rgb(0, 64, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    /* border: 1px solid red;   */
+    gap: 50px;
+    padding-left: 50px;
+}
+
+.conoceme{
+    /* border: 1px solid blue; */
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.descubrir{
+    /* border: 1px solid blue; */
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.redes{
+    /* border: 1px solid blue; */
+    color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.logo{
+    /* border: 1px solid blue; */
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+h2{
+    color: whitesmoke;
+    width: 100%;
+    background-color: green;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imgfooter{
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}
+
+.seccion{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    gap: 10px;
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.Instagram{
+    background-color: green;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 35%;
+    /* border: 1px solid black; */
+}
+
+.contenedorabout{
+    display: flex;
+    justify-content: center;
+    border: 2 px solid blue ;
+    background-color: rgb(49, 236, 49);
+    
+}
+
+.about{
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    
+
+}
+
+.imgabout{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 50%;
+}
+
+.abouttexto{
+    /* border: 2px solid red; */
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: justify;
+}
